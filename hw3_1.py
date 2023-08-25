@@ -1,0 +1,11 @@
+print("Please enter  five numbers: ")
+num1 = input ("n1 = ")
+num2 = input ("n2 = ")
+num3 = input ("n3 = ")
+num4 = input ("n4 = ")
+num5 = input ("n5 = ")
+
+x = max (num1, num2, num3, num4, num5)
+y = min (num1, num2, num3, num4, num5)
+print ("maximum " + x)
+print ("minimum " + y)
